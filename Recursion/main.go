@@ -8,7 +8,16 @@ func naturalNumberSum(n int) int {
 	}
 	return n + naturalNumberSum(n-1)
 }
+
+func factorial(n int) int {
+	if n == 1 {
+		return 1
+	}
+	return n * factorial(n-1)
+}
 func main() {
 
-	fmt.Println("Natural Number sum of 6 is", naturalNumberSum(6))
+	// fmt.Println("Natural Number sum of 6 is", naturalNumberSum(6))
+
+	fmt.Println("Factorial of 4 is", factorial(5))
 }
