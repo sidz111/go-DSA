@@ -26,4 +26,13 @@ func main() {
 	// fmt.Println(strings.Trim(s, " "))
 	// fmt.Println(strings.ToLower(strings.ReplaceAll(s, " ", "")))
 
+	// s := "hello"
+	// t := "helloworld"
+
+	// if strings.Contains(t, s) {
+	// 	for i := len(s); i < len(t); i++ {
+	// 		fmt.Print(string(t[i]))
+	// 	}
+	// }
+
 }
